@@ -9,8 +9,8 @@ gem 'sqlite3'
 gem 'heroku'
 
 group :development do
-   gem 'pg'
-  gem 'rspec-rails'
+  
+  gem 'rspec-rails', '2.9.0'
 end
 # Gems used only for assets and not required
 # in production environments by default.
@@ -22,7 +22,8 @@ group :production do
    gem 'pg'
 end
 group :test do
-gem 'rspec-rails'
+gem 'rspec-rails', '2.9.0'
+gem 'webrat', '0.7.3'
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
    gem 'therubyracer', :platform => :ruby
