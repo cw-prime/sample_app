@@ -22,6 +22,7 @@ group :assets do
 group :production do
 # gems specifically for Heroku go here  
    gem 'pg'
+   gem 'heroku'
 end
 group :test do
 gem 'autotest', '4.4.6'
