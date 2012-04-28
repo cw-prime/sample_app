@@ -1,0 +1,9 @@
+#Thu Apr 26 15:26:52 EDT 2012
+org.eclipse.debug.ui.consoleBackground=255,255,255
+org.eclipse.debug.ui.outColor=0,0,0
+eclipse.preferences.version=1
+org.eclipse.debug.ui.PREF_CHANGED_VALUE_BACKGROUND=245,196,17
+preferredTargets=default\:default|
+org.eclipse.debug.ui.inColor=0,122,4
+org.eclipse.debug.ui.PREF_LAUNCH_PERSPECTIVES=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<launchPerspectives/>\n
+org.eclipse.debug.ui.errorColor=202,0,0
