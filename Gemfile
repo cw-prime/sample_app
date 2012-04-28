@@ -9,6 +9,7 @@ gem 'rails', '3.2.3'
 gem 'heroku'
 
 group :development do
+  gem "ZenTest", "~> 4.7.0"
  gem 'sqlite3'
  gem 'autotest', '4.4.6'
  gem 'rspec-rails', '2.9.0'

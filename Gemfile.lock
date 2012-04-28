@@ -142,6 +142,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ZenTest (~> 4.7.0)
   autotest (= 4.4.6)
   coffee-rails (~> 3.2.1)
   execjs
