@@ -9,21 +9,26 @@ gem 'sqlite3'
 gem 'heroku'
 
 group :development do
-  
-  gem 'rspec-rails', '2.9.0'
+ 
+ gem 'autotest', '4.4.6'
+ gem 'rspec-rails', '2.9.0'
 end
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  
 group :production do
 # gems specifically for Heroku go here  
    gem 'pg'
 end
 group :test do
-gem 'rspec-rails', '2.9.0'
+gem 'autotest', '4.4.6'
+gem 'rspec-rails',  '2.9.0'
 gem 'webrat', '0.7.3'
+gem "spork",  '0.9.0'
+
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
    gem 'therubyracer', :platform => :ruby
