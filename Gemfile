@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
-
+gem "rspec", "~> 2.9.0"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -27,9 +27,13 @@ group :production do
 end
 group :test do
 gem 'autotest', '4.4.6'
+gem "autotest-growl", "~> 0.2.16"
+gem "autotest-rails", "~> 4.1.2"
+gem "rspec", "~> 2.9.0"
 gem 'rspec-rails',  '2.9.0'
 gem 'webrat', '0.7.3'
 gem "spork",  '0.9.0'
+
 
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes

@@ -1,7 +1,7 @@
-#Thu Apr 26 15:26:54 EDT 2012
-eclipse.preferences.version=1
-tipsAndTricks=true
-platformState=1333570058746
-SHOW_PERSPECTIVEBAR=true
-quickStart=false
+PROBLEMS_FILTERS_MIGRATE=true
 SHOW_COOLBAR=true
+SHOW_PERSPECTIVEBAR=true
+eclipse.preferences.version=1
+platformState=1334767048724
+quickStart=false
+tipsAndTricks=true

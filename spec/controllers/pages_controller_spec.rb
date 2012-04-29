@@ -8,7 +8,9 @@ render_views
   before(:each) do
   @base_title = "Ruby on Rails Tutorial Sample App"
      end
-   
+    
+    
+    
 #home
 
   describe "GET 'home'" do
