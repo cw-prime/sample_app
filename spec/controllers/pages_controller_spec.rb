@@ -9,8 +9,7 @@ render_views
   @base_title = "Ruby on Rails Tutorial Sample App"
      end
     
-    
-    
+       
 #home
 
   describe "GET 'home'" do
