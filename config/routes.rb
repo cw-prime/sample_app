@@ -1,6 +1,10 @@
 SampleApp::Application.routes.draw do
   
+<<<<<<< HEAD
   resources :users
+=======
+  get "users/new"
+>>>>>>> origin/master
 
    root :to => 'pages#home'
    match '/contact', :to => 'pages#contact'
