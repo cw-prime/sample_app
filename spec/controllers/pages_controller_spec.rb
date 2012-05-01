@@ -8,7 +8,8 @@ render_views
   before(:each) do
   @base_title = "Ruby on Rails Tutorial Sample App"
      end
-   
+    
+       
 #home
 
   describe "GET 'home'" do
@@ -67,7 +68,7 @@ end
       response.should have_selector("title", 
                       :content => @base_title + " | Help")
     end 
-    end  
+        end  
   end
   
   
