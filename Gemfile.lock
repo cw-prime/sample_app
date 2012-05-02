@@ -54,6 +54,7 @@ GEM
     factory_girl_rails (3.2.0)
       factory_girl (~> 3.2.0)
       railties (>= 3.0.0)
+    gravatar_image_tag (1.1.2)
     heroku (2.25.0)
       launchy (>= 0.3.2)
       netrc (~> 0.7.1)
@@ -160,6 +161,7 @@ DEPENDENCIES
   execjs
   factory_girl (~> 3.2.0)
   factory_girl_rails (~> 3.2.0)
+  gravatar_image_tag (~> 1.1.2)
   heroku
   jquery-rails
   pg

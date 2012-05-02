@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 gem 'rails', '3.2.3'
 gem "rspec", "~> 2.9.0"
+gem "gravatar_image_tag", "~> 1.1.2"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
@@ -36,6 +37,7 @@ group :test do
     gem 'annotate', '~> 2.4.1.beta' 
     gem "factory_girl", "~> 3.2.0"
     gem "factory_girl_rails", "~> 3.2.0"
+    
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
      gem 'therubyracer', :platform => :ruby
