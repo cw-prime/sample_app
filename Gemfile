@@ -34,6 +34,7 @@ group :test do
     gem 'webrat', '0.7.3'
     gem "spork",  '0.9.0'
     gem 'annotate', '~> 2.4.1.beta' 
+    gem "factory_girl", "~> 3.2.0"
 
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
