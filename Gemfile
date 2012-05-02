@@ -35,7 +35,7 @@ group :test do
     gem "spork",  '0.9.0'
     gem 'annotate', '~> 2.4.1.beta' 
     gem "factory_girl", "~> 3.2.0"
-
+    gem "factory_girl_rails", "~> 3.2.0"
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
      gem 'therubyracer', :platform => :ruby

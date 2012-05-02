@@ -1,6 +1,6 @@
-FactoryGirl.create :user do |user|
-user.name                   "Mark Barton"
-user.email                 "mbarton@yahoo.com"
-user.password               "foobar"
-user.password_confirmation  "foobar"
+ Factory.define :user do |user|
+  user.name                   "Mark Jones"
+  user.email                  "mike@yahoo.com"
+  user.password              "foobar"
+  user.password_confirmation  "foobar"
 end
