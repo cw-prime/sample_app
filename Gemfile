@@ -33,11 +33,7 @@ group :test do
     gem 'rspec-rails',  '2.9.0'
     gem 'webrat', '0.7.3'
     gem "spork",  '0.9.0'
-<<<<<<< HEAD
     gem 'annotate', '~> 2.4.1.beta' 
-=======
-
->>>>>>> origin/master
 
 end
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
