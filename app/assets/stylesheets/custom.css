@@ -1,5 +1,6 @@
-.container{
-width: 710px;
+.container {
+	
+ width: 710px;
 }
 
 body {
@@ -151,4 +152,9 @@ td.sidebar {
 	
 	border: 1px solid #999;
 	margin-bottm: -15px;
+}
+
+
+div.field, div.actions {
+	margin-bottom: 10px;
 }

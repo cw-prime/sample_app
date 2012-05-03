@@ -8,7 +8,7 @@ def show
 def new
     
     @title = "Sign up"
-    
-  end
+    @user = User.new
+      end
   
 end
