@@ -1,5 +1,6 @@
 class UsersController < ApplicationController
   before_filter :authenticate, :only => [:index, :edit, :update, :destroy]
+  before_filter :correct_user, :only => [:edit, :update]
 
  
 def show
@@ -25,6 +26,7 @@ def new
   end
   end
   def edit
+    
     @user = User.find(params[:id])
     @title = "Edit User"
   end
@@ -45,5 +47,10 @@ def new
     deny_access unless signed_in?    
    end
    
+   def correct_user
+     @user = User.find(params[:id])
+     redirect_to(root_path) unless current_user?(@user)
+     
+   end
   
 end
