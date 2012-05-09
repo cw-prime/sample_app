@@ -3,6 +3,11 @@ class UsersController < ApplicationController
   before_filter :correct_user, :only => [:edit, :update]
 
  
+ 
+ def index
+   @users = User.all
+   @title = "All users"
+ end
 def show
     @user = User.find(params[:id])
     @title = @user.name 
