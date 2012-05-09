@@ -12,7 +12,7 @@ describe User do
   
   
   it "should create a new instance given a valid attribute" do
-    User.create!(@attr)
+    User.create(@attr)
     
   end
 

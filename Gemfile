@@ -6,7 +6,7 @@ gem "gravatar_image_tag", "~> 1.1.2"
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-
+gem "will_paginate", "~> 3.0.3"
 gem 'heroku'
 
 group :development do
@@ -14,6 +14,7 @@ group :development do
      gem 'sqlite3'
      gem 'autotest', '4.4.6'
      gem 'rspec-rails', '2.9.0'
+     gem "faker", "~> 1.0.1"
 end
 # Gems used only for assets and not required
 # in production environments by default.

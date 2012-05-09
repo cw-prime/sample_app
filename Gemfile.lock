@@ -54,6 +54,8 @@ GEM
     factory_girl_rails (3.2.0)
       factory_girl (~> 3.2.0)
       railties (>= 3.0.0)
+    faker (1.0.1)
+      i18n (~> 0.4)
     gravatar_image_tag (1.1.2)
     heroku (2.25.0)
       launchy (>= 0.3.2)
@@ -147,6 +149,7 @@ GEM
       nokogiri (>= 1.2.0)
       rack (>= 1.0)
       rack-test (>= 0.5.3)
+    will_paginate (3.0.3)
 
 PLATFORMS
   ruby
@@ -161,6 +164,7 @@ DEPENDENCIES
   execjs
   factory_girl (~> 3.2.0)
   factory_girl_rails (~> 3.2.0)
+  faker (~> 1.0.1)
   gravatar_image_tag (~> 1.1.2)
   heroku
   jquery-rails
@@ -174,3 +178,4 @@ DEPENDENCIES
   therubyracer
   uglifier (>= 1.0.3)
   webrat (= 0.7.3)
+  will_paginate (~> 3.0.3)
